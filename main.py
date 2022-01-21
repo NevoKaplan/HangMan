@@ -109,7 +109,8 @@ def again():
 
 
 def game():
-    word = pick_word()
+    global word
+    pick_word()
     word_structure()
     print("\nGame by Nevo & Oren Kaplan\n")
     flag = True
